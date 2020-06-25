@@ -14,6 +14,8 @@ process.env.CADUCIDAD_TOKEN =  60 * 60 * 24 * 30;
 // SEED de autenticacion
 process.env.SEED = process.env.SEED || 'este-es-el-seed-de-desarrollo';
 
+// GOOGLE CLIENT ID
+process.env.CLIENT_ID = process.env.CLIENT_ID || '565369592864-80svr9optv7easbl009ji35ru3cceiq4.apps.googleusercontent.com';
 // BASE DE DATOS
 let urlDB;
 if(process.env.NODE_ENV === 'dev') urlDB = 'mongodb://localhost:27017/cafe';
